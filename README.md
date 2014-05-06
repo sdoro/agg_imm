@@ -44,5 +44,5 @@ genera anche la parte 'admin':
 	$ ./manage.py syncdb
 
 Il risultato si verifica andando con un browser all'indirizzo
-http://127.0.0.1:5000.
+http://127.0.0.1:8000.
 
