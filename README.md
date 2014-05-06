@@ -1,8 +1,8 @@
 ### Premessa ###
 
 I tipi di dato della soluzione PostgreSQL sono stati
-leggermente addattati quando il tipo PostgreSQL non trova
-corrispondenze nel models di Django.
+leggermente adattati quando il tipo PostgreSQL non trova
+corrispondenze nel modello di Django.
 
 
 ### La prima prova di simulazione (1) ###
