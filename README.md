@@ -7,7 +7,8 @@ corrispondenze nel modello di Django.
 
 ### La prima prova di simulazione (1) ###
 
-Versione utilizzata:
+Verifica che Django funziona ad esempio lanciando il comando
+di visualizzazione della versione:
 
 	$ django-admin --version
 	1.4.5
@@ -43,6 +44,12 @@ genera anche la parte 'admin':
 	$ nano age_imm/admin.py
 	$ ./manage.py syncdb
 
-Il risultato si verifica andando con un browser all'indirizzo
-http://127.0.0.1:8000.
+Il risultato si verifica attivando il server con:
+
+	$ ./manage.py runserver
+
+e con il browser all'indirizzo http://127.0.0.1:8000 
+
+Per sperimentare l'interterfaccia amministrativa (admin)
+punta invece il browser su http://127.0.0.1:8000/admin
 
