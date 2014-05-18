@@ -19,4 +19,6 @@ urlpatterns = patterns('',
     #url(r'^query-02/', "views.q2"),
     #url(r'^query-03/', "views.q3"),
     #url(r'^query-04/', "views.q4"),
+    url(r'^agenzie/(\d+)/$', "views.ann"),
+    url(r'^data_a/(?P<anno>\d{4})/(?P<mese>\d{1,2})/$', "views.data_ann"),
 )
