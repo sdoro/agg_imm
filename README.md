@@ -32,8 +32,8 @@ Editing del file 'models.py':
 
 Validazione del modello e test output in SQL:
 
-	$ /manage.py validate
-	$ /manage.py sqlall age_imm
+	$ ./manage.py validate
+	$ ./manage.py sqlall age_imm
 
 Dopo aver verificato la correttezza si costruisce una
 directory 'sql' e si inserisce tanti file corrispondenti
