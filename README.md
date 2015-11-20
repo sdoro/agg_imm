@@ -7,10 +7,17 @@ corrispondenze nel modello di Django.
 
 ### La prima prova di simulazione (1) ###
 
+In ambiente c9.io autenticati con l'account github.com e seleziona il repository agg_imm.
+Successivamente digita i comandi:
+
+	virtualenv $HOME/.env
+	source $HOME/.env/bin/activate
+	pip install django==1.4.5
+
 Verifica che Django funziona ad esempio lanciando il comando
 di visualizzazione della versione:
 
-	$ django-admin --version
+	$ django-admin.py --version
 	1.4.5
 
 Costruzione del progetto 'age_imm'
@@ -46,10 +53,10 @@ genera anche la parte 'admin' (user/password=dba/dba):
 
 Il risultato si verifica attivando il server con:
 
-	$ ./manage.py runserver
+	$ ./manage.py runserver $IP:$PORT
 
-e con il browser all'indirizzo http://127.0.0.1:8000 
+e con il browser all'indirizzo https://agg-imm-sdoro.c9users.io/
 
 Per sperimentare l'interterfaccia amministrativa (admin)
-punta invece il browser su http://127.0.0.1:8000/admin
+punta invece il browser su https://agg-imm-sdoro.c9users.io/admin
 
